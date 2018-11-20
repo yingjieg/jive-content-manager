@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - jive-sdk > express > serve-static > send > debug:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > body-parser > debug:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > mocha > debug:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > morgan > debug:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > express > finalhandler > debug:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > express > send > debug:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > method-override > debug:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > express > debug:
+        patched: '2018-11-20T22:03:55.592Z'
+  'npm:hoek:20180212':
+    - jive-sdk > request > hawk > hoek:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > request > hawk > boom > hoek:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > request > hawk > sntp > hoek:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-11-20T22:03:55.592Z'
+  'npm:mime:20170907':
+    - jive-sdk > express > send > mime:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > express > serve-static > send > mime:
+        patched: '2018-11-20T22:03:55.592Z'
+  'npm:ms:20170412':
+    - jive-sdk > express > send > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > serve-favicon > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > express > debug > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > method-override > debug > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > mocha > debug > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > morgan > debug > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > body-parser > debug > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > express > finalhandler > debug > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > express > send > debug > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > express > serve-static > send > debug > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+    - jive-sdk > express > serve-static > send > ms:
+        patched: '2018-11-20T22:03:55.592Z'
+  'npm:tunnel-agent:20170305':
+    - jive-sdk > request > tunnel-agent:
+        patched: '2018-11-20T22:03:55.592Z'
