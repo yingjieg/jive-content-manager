@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T04:43:12.904Z'
+    - jive-api-client > lodash:
+        patched: '2020-05-01T04:43:12.904Z'
+    - jive-sdk > archiver > lodash:
+        patched: '2020-05-01T04:43:12.904Z'
+    - jive-sdk > archiver > archiver-utils > lodash:
+        patched: '2020-05-01T04:43:12.904Z'
+    - jive-sdk > archiver > async > lodash:
+        patched: '2020-05-01T04:43:12.904Z'
+    - jive-sdk > archiver > zip-stream > lodash:
+        patched: '2020-05-01T04:43:12.904Z'
+    - jive-sdk > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T04:43:12.904Z'
+    - jive-sdk > request > form-data > async > lodash:
+        patched: '2020-05-01T04:43:12.904Z'
